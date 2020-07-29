@@ -9,7 +9,7 @@ function Menu(){
   return(
     <nav className="Menu">
       <Link to="/">
-        <img class="Logo" src={Logo} alt="Matflix Logo"/>
+        <img className="Logo" src={Logo} alt="Matflix Logo"/>
       </Link>
 
       <Button as={Link} to="/cadastro/video" className="ButtonLink">
