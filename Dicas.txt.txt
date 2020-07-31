@@ -1,0 +1,24 @@
+Criando projeto
+npx create-react-app my-app
+
+Inside VSCode, press Ctrl+P, and enter:
+ext install vscode-styled-components
+
+-- Trabalhando com rotas
+yarn add react-router-dom
+
+-- Instalando eslint
+yarn add eslint --dev
+npx eslint --init
+npm install prop-types
+
+-- Backend Fake
+npm install json-web-server
+
+-- Rodar dois comandos em um terminal
+npm install concurrently
+"dev": "concurrently \"react-scripts start\" \"npm run server\"",
+
+
+vercel usa o build
+heroku usa o start
