@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
-import FormField, { FormFieldArrea } from '../../../components/FormField';
+import FormField/*, { FormFieldArrea }*/ from '../../../components/FormField';
+import Button from '../../../components/Button';
 import { Link } from 'react-router-dom';
 
 function  CadastrarCategoria(){
@@ -32,6 +33,36 @@ function  CadastrarCategoria(){
     setValue(name, value);
   }
 
+  useEffect(() => {
+    const URL = 'http://localhost:8080/categorias';
+    fetch(URL)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+    
+    
+    //setTimeout(() => {
+    //  setCategorias([
+    //    ...categorias,
+    //    {
+    //      "id": 1,
+    //      "nome" : "Front End",
+    //      "descricao" : "Uma categoria bacana",
+    //      "cor": "#cbd1ff" 
+    //    },
+    //    {
+    //      "id": 2,
+    //      "nome" : "Back End",
+    //      "descricao" : "Uma categoria bacana",
+    //      "cor": "#cbd133"     
+    //    },
+    //  ]);
+    //}, 4 * 1000 );
+  }, []);
+
   return (
     <PageDefault>
       <h1>Cadastrar Categoria: {values.nome}</h1>
@@ -46,46 +77,33 @@ function  CadastrarCategoria(){
           onChange={handleChange}
         /> 
 
-        <FormFieldArrea
+        <FormField
           label="Descrição da Categoria: "           
           name="descricao"
+          type="textarea"    
           value={values.descricao}
           onChange={handleChange}
         /> 
-
-        {/*<div>
-          <label>          
-            Descrição da Categoria: 
-            <textarea               
-              name="descricao"
-              value={values.descricao}
-              onChange={handleChange}
-            />          
-          </label>
-        </div> */}
-
+    
         <FormField
-          label="Cor da Categoria: " 
+          label="Cor"
           type="color"
           name="cor"
           value={values.cor}
           onChange={handleChange}
         /> 
-
-
-
         
-        <button>Cadastrar</button>
+        <Button>Cadastrar</Button>
       </form>
 
+      {categorias.length === 0 && (<div>Loading...</div>) }
+        
         <ul>
           {categorias.map((categoria, indice) => {            
             return(              
               <li key={`${categoria}${indice}`}>
                 {categoria.nome} 
-              </li>
-              
-              
+              </li>                            
             ) 
           })}
         </ul> 
