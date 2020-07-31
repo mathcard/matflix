@@ -36,7 +36,7 @@ function CadastrarCategoria() {
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
-      : 'http://localhost:8080/categorias';
+      : 'https://mathcard-netflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
