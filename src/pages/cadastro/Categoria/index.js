@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastrarCategoria() {
   const valoresIniciais = {
@@ -11,26 +12,13 @@ function CadastrarCategoria() {
     cor: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
 
   function handleSubmit(e) {
     e.preventDefault();
     setCategorias([...categorias, values]);
-    setValues(valoresIniciais);
-  }
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'Matheus'
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    // const { getAttribute, value } = infosDoEvento.target;   NÃO FUNCIONOU
-    const { name, value } = infosDoEvento.target;
-    setValue(name, value);
+    clearForm(valoresIniciais);
   }
 
   useEffect(() => {
@@ -44,24 +32,6 @@ function CadastrarCategoria() {
           ...resposta,
         ]);
       });
-
-    // setTimeout(() => {
-    //  setCategorias([
-    //    ...categorias,
-    //    {
-    //      "id": 1,
-    //      "nome" : "Front End",
-    //      "descricao" : "Uma categoria bacana",
-    //      "cor": "#cbd1ff"
-    //    },
-    //    {
-    //      "id": 2,
-    //      "nome" : "Back End",
-    //      "descricao" : "Uma categoria bacana",
-    //      "cor": "#cbd133"
-    //    },
-    //  ]);
-    // }, 4 * 1000 );
   }, []);
 
   return (

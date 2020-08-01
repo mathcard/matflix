@@ -1,16 +1,45 @@
 {
-  "categorias" : [
+  "categorias": [
     {
       "id": 1,
-      "nome" : "Front End",
-      "descricao" : "Uma categoria bacana",
-      "cor": "#cbd1ff" 
+      "titulo": "Front End",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
     },
     {
       "id": 2,
-      "nome" : "Back End",
-      "descricao" : "Uma categoria bacana",
-      "cor": "#cbd133" 
+      "categoriaId": 1,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=WsrFSStbnzw"
+    },
+    {
+      "titulo": "Vídeo Padrão",
+      "url": "https://www.youtube.com/watch?v=UveMYzBgjL4",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Vídeo Padrão",
+      "url": "https://www.youtube.com/watch?v=XPxUfGfWtRA",
+      "categoriaId": 1,
+      "id": 4
+    },
+    {
+      "titulo": "Vídeo Padrão",
+      "url": "https://www.youtube.com/watch?v=RPe6_h1R8GA",
+      "categoriaId": 1,
+      "id": 5
     }
   ]
 }
