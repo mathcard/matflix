@@ -2,44 +2,140 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
+      "titulo": "Séries",
+      "cor": "#db2e1a",
+      "link_extra": {
+        "text": "Algumas das melhores séries na netflix! ",
+        "url": "https://www.netflix.com/br/"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Dev",
       "cor": "#6BD1FF",
       "link_extra": {
         "text": "Formação de Front End na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       }
-    }
+    },
+    {
+      "id": 3,
+      "titulo": "Músicas",
+      "cor": "#fcba03",
+      "link_extra": {
+        "text": "Grandes bandas",
+        "url": "https://www.letras.mus.br"
+      }
+    }  
   ],
   "videos": [
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Breaking Bad - Trailer",
+      "url": "https://www.youtube.com/watch?v=2-W6_6gJda0"
     },
     {
       "id": 2,
       "categoriaId": 1,
+      "titulo": "Sons of Anarchy Season",
+      "url": "https://www.youtube.com/watch?v=ia4cggzpqYQ"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Suits",
+      "url": "https://www.youtube.com/watch?v=PhJnpbicLnk"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Rick and Morty Theatrical Trailer [HD]",
+      "url": "https://www.youtube.com/watch?v=_uUcMwsR5hg"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Peaky Blinders - Season 1 | Trailer",
+      "url": "https://www.youtube.com/watch?v=oVzVdvGIC7U"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Vis a Vis",
+      "url": "https://www.youtube.com/watch?v=N08KRAPzsHU"
+    },    
+    {
+      "id": 7,
+      "categoriaId": 2,
       "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=WsrFSStbnzw"
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
     },
     {
-      "titulo": "Vídeo Padrão",
-      "url": "https://www.youtube.com/watch?v=UveMYzBgjL4",
-      "categoriaId": 1,
-      "id": 3
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Componentização com VanillaJS #AluraMais",
+      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
     },
     {
-      "titulo": "Vídeo Padrão",
-      "url": "https://www.youtube.com/watch?v=XPxUfGfWtRA",
-      "categoriaId": 1,
-      "id": 4
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Pare de chutar e aprenda a display: inline #01",
+      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
     },
     {
-      "titulo": "Vídeo Padrão",
-      "url": "https://www.youtube.com/watch?v=RPe6_h1R8GA",
-      "categoriaId": 1,
-      "id": 5
-    }
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Novidades do Angular v9",
+      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Queen",
+      "url": "https://www.youtube.com/watch?v=oMOoV6RuJps"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Raul Seixas",
+      "url": "https://www.youtube.com/watch?v=IkxbmTll214"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "System Of a Down",
+      "url": "https://www.youtube.com/watch?v=wz1ca1-_-MY"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Metallica",
+      "url": "https://www.youtube.com/watch?v=tAGnKpE4NCI"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Jimmy & Rats",
+      "url": "https://www.youtube.com/watch?v=kGeVwsOUYuA"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "CRJR",
+      "url": "https://www.youtube.com/watch?v=i1rz5Rmx2gk"
+    }             
   ]
 }
