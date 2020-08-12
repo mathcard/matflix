@@ -1,4 +1,4 @@
-Criando projeto - test commit
+Criando projeto - test commit2
 npx create-react-app my-app
 
 Inside VSCode, press Ctrl+P, and enter:
