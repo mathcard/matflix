@@ -11,22 +11,25 @@ Tabela de conteúdos
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
+      * [Pre Requisitos](#pre-requisitos)         
    * [Tecnologias](#tecnologias)
+   * [Autor](#autor)
 <!--te-->
 
 ## Sobre 
 Projeto desenvolvido durante a imersão react realizado pela Alura simulando a interface da Netflix.
 
-## Instalação
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Eu optei pelo [Yarn] (https://yarnpkg.com/), mas fique a vontade para escolher gerencioador de pacotes
+
+
+### Instalação
 `yarn install`
 
-## como-usar
+### Como Usar
 `yarn start`
 
 ### 🛠 Tecnologias
@@ -50,6 +53,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 [![Instagram Badge](https://img.shields.io/badge/-@math_carmocard-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://www.instagram.com/math_carmocard/)](https://www.instagram.com/math_carmocard/) 
 [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9)](https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9/) 
-[![Gmail Badge](https://img.shields.io/badge/-mathcardoso.94@gmmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mathcardoso.94@gmail.com)](mailto:mathcardoso.94)
+[![Gmail Badge](https://img.shields.io/badge/-mathcardoso.94@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mathcardoso.94@gmail.com)](mailto:mathcardoso.94@gmail.com)
 
 
