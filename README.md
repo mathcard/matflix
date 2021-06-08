@@ -1,9 +1,5 @@
 # MatFlix
 
-<p align="center">
-  <img alt="Logo do projeto" width="100px" src="https://www.alura.com.br/assets/img/imersoes/react/imersao-react-logo.1594044142.svg" />
-</p>
-
 <h1>
   <img alt="Readme" title="Readme" src="./matflix.gif"/>
 </h1>
