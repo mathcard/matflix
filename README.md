@@ -25,8 +25,12 @@ Eu optei pelo [Yarn] (https://yarnpkg.com/), mas fique a vontade para escolher g
 
 
 ### Instalação
-`yarn install`
-`yarn start`
+```bash
+yarn install
+```
+```bash
+yarn start
+```
 
 ### Tecnologias 
 #### 🛠
@@ -38,11 +42,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Autor
 ---
-
-<a href="https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9/">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/28113945?v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Matheus do Carmo</b></sub></a> <a href="https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9/" title="Dev"></a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9/">
+   <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/28113945?v=4" width="100px;" alt=""/>
+   <br />
+   <sub><b>Matheus do Carmo</b></sub></a> <a href="https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9/" title="Dev"></a>
 
 
 🏽 Entre em contato!
@@ -51,4 +55,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9)](https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9/) 
 [![Gmail Badge](https://img.shields.io/badge/-mathcardoso.94@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mathcardoso.94@gmail.com)](mailto:mathcardoso.94@gmail.com)
 
+  </p>
 
