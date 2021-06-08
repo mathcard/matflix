@@ -7,8 +7,7 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Sobre](#Sobre)   
    * [Pré-requisitos](#Pré-requisitos)    
    * [Instalação](#Instalação)
    * [Como usar](#Como Usar)           
@@ -32,7 +31,7 @@ Eu optei pelo [Yarn] (https://yarnpkg.com/), mas fique a vontade para escolher g
 ### Como Usar
 `yarn start`
 
-### 🛠 Tecnologias
+### Tecnologias 🛠
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
