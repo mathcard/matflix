@@ -9,11 +9,11 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#Sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)         
-   * [Tecnologias](#tecnologias)
-   * [Autor](#autor)
+   * [Pré-requisitos](#Pré-requisitos)    
+   * [Instalação](#Instalação)
+   * [Como usar](#Como Usar)           
+   * [Tecnologias](#Tecnologias)
+   * [Autor](#Autor)
 <!--te-->
 
 ## Sobre 
