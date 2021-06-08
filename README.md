@@ -9,8 +9,7 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#Sobre)   
    * [Pré-requisitos](#Pré-requisitos)    
-   * [Instalação](#Instalação)
-   * [Como usar](#Como Usar)           
+   * [Instalação](#Instalação)        
    * [Tecnologias](#Tecnologias)
    * [Autor](#Autor)
 <!--te-->
@@ -27,12 +26,10 @@ Eu optei pelo [Yarn] (https://yarnpkg.com/), mas fique a vontade para escolher g
 
 ### Instalação
 `yarn install`
-
-### Como Usar
 `yarn start`
 
-### Tecnologias 🛠
-
+### Tecnologias 
+#### 🛠
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
@@ -50,7 +47,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 🏽 Entre em contato!
 
-[![Instagram Badge](https://img.shields.io/badge/-@math_carmocard-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://www.instagram.com/math_carmocard/)](https://www.instagram.com/math_carmocard/) 
+[![Instagram Badge](https://img.shields.io/badge/-@math_carmocard-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=instagram&logoColor=white&link=https://www.instagram.com/math_carmocard/)](https://www.instagram.com/math_carmocard/) 
 [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9)](https://www.linkedin.com/in/matheus-carmo-cardoso-271066b9/) 
 [![Gmail Badge](https://img.shields.io/badge/-mathcardoso.94@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mathcardoso.94@gmail.com)](mailto:mathcardoso.94@gmail.com)
 
