@@ -1,5 +1,4 @@
 # MatFlix
-Projeto desenvolvido durante a imersão react realizado pela Alura 
 
 <p align="center">
   <img alt="Logo do projeto" width="150px" src="https://www.alura.com.br/assets/img/imersoes/react/imersao-react-logo.1594044142.svg" />
@@ -20,6 +19,9 @@ Tabela de conteúdos
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
 <!--te-->
+
+## Sobre 
+Projeto desenvolvido durante a imersão react realizado pela Alura 
 
 Para executar o projeto:
 
